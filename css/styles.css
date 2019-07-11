@@ -1,0 +1,64 @@
+@import 'reset.css';
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+body {
+  background-color: #333639;
+}
+
+main {
+  width: 800px;
+  font-family: 'Lato';
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 1rem 2rem;
+  background-color: inherit;
+  color: #fefefe;
+}
+
+input[type='text']{
+  padding: 6px 10px;
+  font-size: 1.1rem;
+  width: 450px;
+  margin-top: 10px;
+  border: 3px solid #fefefe;
+  border-radius: 40px;
+}
+
+button[type='submit']{
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 40px;
+  background-color: #fefefe;
+  border: none;
+  color: #333639;
+}
+
+button[type='submit']:active {
+  background-color: #d4d4d4;
+}
+
+
+.ans {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin-top: 12px;
+}
+
+.err {
+  font-size: 1.1rem;
+  font-weight: 300;
+  padding-left: 6px;
+  color: #9BA0A5;
+}
+
+.badge {
+  padding: 6px;
+}
+
+h2 {
+  padding: 20px 0;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
